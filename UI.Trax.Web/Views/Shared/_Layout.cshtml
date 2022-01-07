@@ -1,12 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/assets/css/style.blue-grey-500.min.css" rel="stylesheet" />
+    <link href="~/Content/ui-darkness/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Content/ui-darkness/theme.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.blockUI.js"></script>
+    <script src="~/Scripts/sweetalert.min.js"></script>
+    <script src="~/Scripts/moment.min.js"></script>
+    <script src="~/ViewScripts/Shared/_LoginPartial.js"></script>
+    @*<script src="~/ViewScripts/Shared/Login.js"></script>*@
+
+    <script src="~/Content/datatables.min.js"></script>
+    <script src="~/Content/datatables.js"></script>
+
+    <link href="~/Content/datatables.css" rel="stylesheet" />
+    <link href="~/Content/datatables.min.css" rel="stylesheet" />
+    @*<link href="~/Content/DataTables-1.10.21/css/responsive.dataTables.css" rel="stylesheet" />*@
+    @*<script src="~/Content/DataTables-1.10.21/js/dataTables.responsive.js"></script>*@
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">

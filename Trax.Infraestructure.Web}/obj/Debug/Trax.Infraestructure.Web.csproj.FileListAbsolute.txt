@@ -1,9 +1,8 @@
+C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\obj\Debug\Trax.Infraestructure.Web.csproj.CoreCompileInputs.cache
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\bin\Debug\Trax.Infraestructure.Web}.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\bin\Debug\Trax.Infraestructure.Web}.pdb
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\bin\Debug\TRAX.Framework.Negocio.Web.Api.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\bin\Debug\TRAX.Models.Web.Api.dll
-C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\obj\Debug\Trax.Infraestructure.Web.csproj.AssemblyReference.cache
-C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\obj\Debug\Trax.Infraestructure.Web.csproj.CoreCompileInputs.cache
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\obj\Debug\Trax.Infraestructure.Web.csproj.CopyComplete
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\obj\Debug\Trax.Infraestructure.Web}.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\Trax.Infraestructure.Web}\obj\Debug\Trax.Infraestructure.Web}.pdb

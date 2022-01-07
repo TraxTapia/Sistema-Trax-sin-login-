@@ -1,3 +1,4 @@
+C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\obj\Debug\UI.Trax.Web.csproj.CoreCompileInputs.cache
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\bin\UI.Trax.Web.dll.config
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\bin\UI.Trax.Web.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\bin\UI.Trax.Web.pdb
@@ -83,7 +84,6 @@ C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\bin\es\System.Web.WebPa
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\bin\es\System.Web.WebPages.Razor.resources.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\obj\Debug\UI.Trax.Web.csproj.AssemblyReference.cache
-C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\obj\Debug\UI.Trax.Web.csproj.CoreCompileInputs.cache
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\obj\Debug\UI.Trax.Web.csproj.CopyComplete
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\obj\Debug\UI.Trax.Web.dll
 C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\obj\Debug\UI.Trax.Web.pdb

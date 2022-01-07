@@ -42,8 +42,9 @@
     <Reference Include="TRAX.Framework.Negocio.Web.Api">
       <HintPath>..\..\SistemaWebTrax\librerias\TRAX.Framework.Negocio.Web.Api.dll</HintPath>
     </Reference>
-    <Reference Include="TRAX.Models.Web.Api">
-      <HintPath>..\..\SistemaWebTrax\librerias\TRAX.Models.Web.Api.dll</HintPath>
+    <Reference Include="TRAX.Models.Web.Api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\librerias\TRAX.Models.Web.Api.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

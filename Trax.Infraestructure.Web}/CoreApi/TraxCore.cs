@@ -37,7 +37,24 @@ namespace Trax.Infraestructure.Web_.CoreApi
             return _Response;
 
         }
+        public ObtenerListadoUsuariosResponseDTO ListaUsuariosConAhorros(string EndPoint)
+        {
+            ObtenerListadoUsuariosResponseDTO _Response = new ObtenerListadoUsuariosResponseDTO();
+            try
+            {
+                ClientApiTrax _client = new ClientApiTrax(this._Logger);
+                _client.SetEndPoint(EndPoint);
+                _Response = _client.ObtenerListadoAhorros();
+            }
+            catch (Exception ex)
+            {
+                this._Logger.LogError(ex);
+                _Response.Result.SetStatusCode(OperationResult.StatusCodesEnum.INTERNAL_SERVER_ERROR);
+                _Response.Result.AddException(ex);
+            }
+            return _Response;
 
+        }
 
 
     }

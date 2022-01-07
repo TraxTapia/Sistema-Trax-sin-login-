@@ -58,6 +58,22 @@ namespace Trax.Infraestructure.Web_.ClienteApi
             _Response = _MessageFactory.SendRequest<ObtenerAhorroByUsuarioReponseDTO>(this.UrlEndPoint, this.Token, "/CajaAhorro/obtenerAhorros", _Payload, HttpMethod.Post);
             return _Response;
         }
+        public ObtenerListadoUsuariosResponseDTO ObtenerListadoAhorros()
+        {
+            var _Response = new ObtenerListadoUsuariosResponseDTO();
+
+            if (!this.HasEndPoint())
+            {
+                _Response.Result.SetStatusCode(OperationResult.StatusCodesEnum.UNAUTHORIZED);
+                _Response.Result.AddException(new Exception("Es necesario asignar una UrlEndPoint"));
+                return _Response;
+            }
+
+            //string _Payload = JsonSerializer.Serialize(request);
+            MessageFactory _MessageFactory = new MessageFactory(this._Logger);
+            _Response = _MessageFactory.SendRequest<ObtenerListadoUsuariosResponseDTO>(this.UrlEndPoint, this.Token, "/CajaAhorro/AhorrosUsuarios",string.Empty, HttpMethod.Post);
+            return _Response;
+        }
 
     }
 }
