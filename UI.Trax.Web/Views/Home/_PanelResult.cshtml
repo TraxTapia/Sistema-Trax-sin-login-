@@ -1,0 +1,58 @@
+﻿
+
+@{
+    ViewBag.Title = "ObtenerUsuarioById";
+}
+
+<h2>ObtenerUsuarioById</h2>
+@model  TRAX.Models.Web.Api.TraxApi.Response.ObtenerAhorroByUsuarioReponseDTO
+
+@{
+    Boolean IsOk;
+    IsOk = Model.IsOk;
+
+
+
+
+    if (IsOk == true)
+
+    {
+
+        <div class="row">
+            <div class="col-xl-12">
+
+                <table class="table table-no-border table-hover animated fadeInUp" id="tableDetalle" style="background-color:#f5f5f5; font-size:small">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>IdUsuario</th>
+                            <th>NombreCompleto</th>
+                            <th>Total</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody id="tbodydetalle">
+                        @foreach (var oElemento in Model.List)
+
+                        {
+                            <tr id="trTablaDetalle">
+                                <td>@oElemento.Id</td>
+                                <td>@oElemento.IdUsuario</td>
+                                <td>@oElemento.NombreCompleto</td>
+                                <td>@oElemento.Total</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="" style="text-align:center;">
+            <p class="color-danger" style="text-align:center;"><b>@Model.Message</b></p>
+        </div>
+    }
+}
