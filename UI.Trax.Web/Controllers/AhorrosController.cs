@@ -35,10 +35,10 @@ namespace UI.Trax.Web.Controllers
                 ObtenerListadoUsuariosResponseDTO _OperationResult = new ObtenerListadoUsuariosResponseDTO();
                 TraxCore core = new TraxCore(this._Logger);
                 _OperationResult = core.ListaUsuariosConAhorros(Properties.Settings.Default.TraxApiEndPoint);
-                if (_OperationResult.Result.Code == OperationResult.StatusCodesEnum.CONFLICT.ToString("D"))
-                    return Json(new { Error = string.Empty, IsOK = false, Code = OperationResult.StatusCodesEnum.CONFLICT });
-                if (!_OperationResult.Result.IsOK() && _OperationResult.Result.Code != OperationResult.StatusCodesEnum.ACCEPTED.ToString("D"))
-                    throw new Exception(string.Join(", ", _OperationResult.Result.Errors.Select(x => x.Message)));
+                //if (_OperationResult.Result.Code == OperationResult.StatusCodesEnum.CONFLICT.ToString("D"))
+                //    return Json(new { Error = string.Empty, IsOK = false, Code = OperationResult.StatusCodesEnum.CONFLICT });
+                //if (!_OperationResult.Result.IsOK() && _OperationResult.Result.Code != OperationResult.StatusCodesEnum.ACCEPTED.ToString("D"))
+                //    throw new Exception(string.Join(", ", _OperationResult.Result.Errors.Select(x => x.Message)));
                 result = new { Error = string.Empty, IsOK = true, Code = OperationResult.StatusCodesEnum.OK, _OperationResult.List };
 
             }

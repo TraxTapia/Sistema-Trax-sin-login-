@@ -1,23 +1,33 @@
-﻿
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
 <div class="container">
+
+    @*<div class="row">
+        <div class="row table-responsive">
+            <div class="col-md-12" style="padding:35px;">
+                <table id="tblProveedores" class="table">
+                </table>
+            </div>
+        </div>
+    </div>*@
+
+
+
+
+
+
+
     <div class="row table-responsive">
         <div class="col-md-12" style="padding:35px;">
             <table id="tablaListaProductos" class="table">
-                <thead>
-                    <tr>
-                        <th style="font-size:small">Id</th>
-                        <th style="font-size:small">Codigo Producto</th>
-                        <th style="font-size:small">Nombre del Producto</th>
-                        @*<th style="font-size:small">Codigo de Empresa</th>*@
-                        <th style="font-size:small">Codigo del Plan</th>
-                        <th style="font-size:small">Estatus</th>
-                        <th style="font-size:small"></th>
-                    </tr>
-                </thead>
             </table>
         </div>
     </div>
 </div>
+
 
 @section scripts {
     <script src="~/ViewsScripts/Ahorros/Index.js"></script>

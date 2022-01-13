@@ -1,0 +1,4 @@
+13/01/2022 12:53:28.5328 p. m. | Referencia a objeto no establecida como instancia de un objeto.
+   en UI.Trax.Web.Controllers.AhorrosController.ObtenerUsuariosConAhorros() en C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\Controllers\AhorrosController.cs:línea 38
+13/01/2022 12:56:32.5632 p. m. | Referencia a objeto no establecida como instancia de un objeto.
+   en UI.Trax.Web.Controllers.AhorrosController.ObtenerUsuariosConAhorros() en C:\Users\ivan.tapia\source\repos\SistemasWeb\UI.Trax.Web\Controllers\AhorrosController.cs:línea 40

@@ -8,6 +8,7 @@ namespace UI.Trax.Web
         // Para obtener más información sobre las uniones, visite https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
@@ -15,16 +16,32 @@ namespace UI.Trax.Web
                         "~/Scripts/jquery.validate*"));
 
             // Utilice la versión de desarrollo de Modernizr para desarrollar y obtener información. De este modo, estará
-            // para la producción, use la herramienta de compilación disponible en https://modernizr.com para seleccionar solo las pruebas que necesite.
+            // preparado para la producción y podrá utilizar la herramienta de compilación disponible en http://modernizr.com para seleccionar solo las pruebas que necesite.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js"));
+                      "~/Scripts/bootstrap.js",
+                      "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            // Assets Styles and Scripts
+            bundles.Add(new StyleBundle("~/Content/assets/css").Include(
+                      "~/Content/assets/css/preload.min.css",
+                      "~/Content/assets/css/plugins.min.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/assets/js").Include(
+                      "~/Scripts/assets/js/plugins.min.js",
+                      "~/Scripts/assets/js/app.min.js",
+                      "~/Scripts/assets/js/index.js"));
+
+            // Fonts            
+            bundles.Add(new StyleBundle("~/font-awesome/css").Include(
+                      "~/Content/assets/plugins/revolution/revolution/fonts/font-awesome/css/font-awesome.min.css", new CssRewriteUrlTransform()));
+
         }
     }
 }
